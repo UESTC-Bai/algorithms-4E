@@ -13,7 +13,7 @@ public class SortCompare {
         if (alg.equals("Shell")) {
             Shell.sort(a);
         }
-        /*
+      
         if (alg.equals("Merge")) {
             Merge.sort(a);
         }
@@ -25,14 +25,14 @@ public class SortCompare {
             Heap.sort(a);
         }
         // Exercise 2.1.24
-        if (alg.equals("Ex24")) {
+        if (alg.equals("ch2x1x24")) {
             ch2x1x24.sort(a);
         }
         // Exercise 2.1.25
-        if (alg.equals("Ex25")) {
+        if (alg.equals("ch2x1x25")) {
             ch2x1x25.sort(a);
         }
-       */
+     
         return timer.elapsedTime();
     }
 
