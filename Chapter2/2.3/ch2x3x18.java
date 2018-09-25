@@ -9,7 +9,7 @@ public class ch2x3x18 {
             return;
         }
         if (hi > lo + 1){
-            int mid = lo +(hi - lo)/2;
+            int mid = lo +(hi - lo +1)/2;
             if (less(a[lo],a[mid])){
                 if (less(a[hi],a[lo])){}
                 else{
